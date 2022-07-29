@@ -1,0 +1,58 @@
+/* Article:  https://superdevresources.com/full-background-image-css/ */
+body {
+    background: url(img/masterofthemountainbk.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+.content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+  }
+  
+h1, h1 a {
+    min-height: 120px;
+    width: 90%;
+    max-width: 700px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 80px;
+  }
+  
+p {
+    width: 90%;
+    max-width: 700px;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.timer {
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.playerStats {
+    font-size: 60px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#bluePlayer {
+    position: absolute; top: 0; left: 0;
+}
+#redPlayer {
+    position: absolute; top: 0; right: 0;
+}
+#yellowPlayer {
+    position: absolute; bottom: 0; right: 0;
+}
+#greenPlayer {
+    position: absolute; bottom: 0; left: 0;
+}
